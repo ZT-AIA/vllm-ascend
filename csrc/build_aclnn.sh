@@ -56,8 +56,8 @@ elif [[ "$SOC_VERSION" =~ ^ascend910_93 ]]; then
     echo "$TARGET_DIR"
     cp "$HCCL_STRUCT_FILE_PATH" "$TARGET_DIR"
 
-    sed -i 's/struct HcclOpResParam {/struct HcclOpResParamCustom {/g' "$TARGET_FILE"
-    sed -i 's/struct HcclRankRelationResV2 {/struct HcclRankRelationResV2Custom {/g' "$TARGET_FILE"
+    sed -i 's/HcclOpResParam/HcclOpResParamCustom/g' "$TARGET_FILE"
+    sed -i 's/HcclRankRelationResV2/HcclRankRelationResV2Custom/g' "$TARGET_FILE"
 
     CUSTOM_OPS_ARRAY=(
         "grouped_matmul_swiglu_quant_weight_nz_tensor_list"
