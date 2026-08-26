@@ -1,0 +1,36 @@
+vllm_ascend/ops/triton/docs/triton_description_specification.md
+  s_372b30fd07ce63::t_49a99312cf999c 44-52
+vllm_ascend/ops/triton/docs/fused_qkvzba_split_reshape.md
+  s_372b30fd07ce63::t_de6ed1aea68696 1-58
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_fused_qkvzba_split_reshape_cat.py
+  s_372b30fd07ce63::t_f6b83075089c51 9-52,55-75,97-98,105-111,114-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "b6e8deeb4f5f0349190eac0a83412201386f84a9",
+  "prompts": {},
+  "sessions": {
+    "s_372b30fd07ce63": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7e92722d958dff5ec45470",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "dedupe_key": "6a7e92722d958dff5ec45470:6a8e97efca7cd3c865f09891:afterEdit:d1d0d00d",
+        "session_id": "6a7e92722d958dff5ec45470",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "tool_type": "builtin",
+        "external_session_id": "6a7e92722d958dff5ec45470",
+        "operation_id": "6a8e97efca7cd3c865f09891",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a8e97efca7cd3c865f09891"
+      }
+    }
+  }
+}
