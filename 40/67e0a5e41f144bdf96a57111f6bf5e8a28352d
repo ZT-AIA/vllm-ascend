@@ -1,0 +1,34 @@
+vllm_ascend/ops/triton/docs/fused_qkvzba_split_reshape.md
+  s_372b30fd07ce63::t_6f9820b4bfcff9 7-11
+vllm_ascend/ops/triton/docs/triton_description_specification.md
+  s_372b30fd07ce63::t_74eadf6248f3d4 42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4067e0a5e41f144bdf96a57111f6bf5e8a28352d",
+  "prompts": {},
+  "sessions": {
+    "s_372b30fd07ce63": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7e92722d958dff5ec45470",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "external_session_id": "6a7e92722d958dff5ec45470",
+        "client_type": "ide",
+        "dedupe_key": "6a7e92722d958dff5ec45470:6a8e9999ca7cd3c865f098ae:afterEdit:a626a442",
+        "tool_type": "builtin",
+        "tool_use_id": "6a8e9999ca7cd3c865f098ae",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "operation_id": "6a8e9999ca7cd3c865f098ae",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "edit_kind": "file_edit",
+        "session_id": "6a7e92722d958dff5ec45470"
+      }
+    }
+  }
+}
