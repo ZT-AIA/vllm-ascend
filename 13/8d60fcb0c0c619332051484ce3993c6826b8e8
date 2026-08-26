@@ -1,0 +1,32 @@
+vllm_ascend/ops/triton/docs/fused_qkvzba_split_reshape.md
+  s_372b30fd07ce63::t_3ac26a3e8c6760 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "138d60fcb0c0c619332051484ce3993c6826b8e8",
+  "prompts": {},
+  "sessions": {
+    "s_372b30fd07ce63": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7e92722d958dff5ec45470",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "operation_id": "6a8ea1ddca7cd3c865f098e2",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a8ea1ddca7cd3c865f098e2",
+        "external_session_id": "6a7e92722d958dff5ec45470",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "session_id": "6a7e92722d958dff5ec45470",
+        "dedupe_key": "6a7e92722d958dff5ec45470:6a8ea1ddca7cd3c865f098e2:afterEdit:0ba87124",
+        "tool_type": "builtin",
+        "tool_id": "icube:applyChatSnapshotPatch"
+      }
+    }
+  }
+}
