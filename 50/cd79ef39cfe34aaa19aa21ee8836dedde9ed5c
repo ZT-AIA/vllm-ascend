@@ -1,0 +1,78 @@
+csrc/torch_binding_meta.cpp
+  s_a265bb5dcf1902::t_c5b6b5afc8d20b 2063-2064
+  s_a265bb5dcf1902::t_41ba3afc8d115d 1839-1860
+csrc/torch_binding.cpp
+  s_a265bb5dcf1902::t_d7cb2a4c1a83ea 50,52,3126,3141
+  s_a265bb5dcf1902::t_be9ad90a99d0c3 3127-3131,3137-3140
+csrc/build_aclnn.sh
+  s_a265bb5dcf1902::t_4b8e0940666168 136,138,191,193,232,234
+csrc/attention/store_kv_block_metadata_new/CMakeLists.txt
+  s_a265bb5dcf1902::t_f32538fd70cfc0 1-10
+csrc/attention/store_kv_block_metadata_new/op_api/aclnn_store_kv_block_metadata_new.cpp
+  s_a265bb5dcf1902::t_fdf198f0d43930 1-79
+csrc/attention/store_kv_block_metadata_new/op_api/aclnn_store_kv_block_metadata_new.h
+  s_a265bb5dcf1902::t_106d0974276370 1-36
+csrc/attention/store_kv_block_metadata_new/op_api/l0_store_kv_block_metadata_new.cpp
+  s_a265bb5dcf1902::t_2e9dcb7a437485 1-53
+csrc/attention/store_kv_block_metadata_new/op_api/l0_store_kv_block_metadata_new.h
+  s_a265bb5dcf1902::t_a106c9f13bd856 1-26
+csrc/attention/store_kv_block_metadata_new/op_graph/store_kv_block_metadata_new_proto.h
+  s_a265bb5dcf1902::t_2f84ddb4a35498 1-33
+csrc/attention/store_kv_block_metadata_new/op_host/store_kv_block_metadata_new_infershape.cpp
+  s_a265bb5dcf1902::t_38214c75bbdfee 1-43
+csrc/attention/store_kv_block_metadata_new/op_kernel_aicpu/store_kv_block_metadata_new_aicpu.cpp
+  s_a265bb5dcf1902::t_3e206faa871518 1-545
+csrc/attention/store_kv_block_metadata_new/op_kernel_aicpu/store_kv_block_metadata_new_aicpu.h
+  s_a265bb5dcf1902::t_8f3cffdc0a4da6 1-58
+csrc/attention/store_kv_block_metadata_new/op_kernel_aicpu/store_kv_block_metadata_new_aicpu.json
+  s_a265bb5dcf1902::t_631c3ba0799672 1-15
+csrc/attention/store_kv_block_metadata_new/store_kv_block_metadata_new_torch_adpt.cpp
+  s_a265bb5dcf1902::t_cf6632eda88ff9 1-49
+csrc/attention/store_kv_block_new/CMakeLists.txt
+  s_a265bb5dcf1902::t_a04c17adc99392 1-19
+csrc/attention/store_kv_block_new/op_host/CMakeLists.txt
+  s_a265bb5dcf1902::t_394d78ef67caba 1-29
+csrc/attention/store_kv_block_new/op_host/store_kv_block_new_def.cpp
+  s_a265bb5dcf1902::t_faa17f35501a8f 1-64
+csrc/attention/store_kv_block_new/op_host/store_kv_block_new_infershape.cpp
+  s_a265bb5dcf1902::t_ddbf3cabd83260 1-33
+csrc/attention/store_kv_block_new/op_host/store_kv_block_new_tiling.cpp
+  s_a265bb5dcf1902::t_27452f8f01492a 1-156
+csrc/attention/store_kv_block_new/op_host/store_kv_block_new_tiling.h
+  s_a265bb5dcf1902::t_447e8d4274dab1 1-22
+csrc/attention/store_kv_block_new/op_kernel/store_kv_block_new.cpp
+  s_a265bb5dcf1902::t_cd1b5958caccfc 1-43
+csrc/attention/store_kv_block_new/op_kernel/store_kv_block_new.h
+  s_a265bb5dcf1902::t_bc48815c940ad6 1-158
+csrc/attention/store_kv_block_new/store_kv_block_new_torch_adpt.h
+  s_a265bb5dcf1902::t_27319e8df96f96 1-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "50cd79ef39cfe34aaa19aa21ee8836dedde9ed5c",
+  "prompts": {},
+  "sessions": {
+    "s_a265bb5dcf1902": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8fa8e96f818cfedf056400",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "operation_id": "6a8fd64e23891158e92a0daa",
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a8fa8e96f818cfedf056400:6a8fd64e23891158e92a0daa:afterEdit:4d221560",
+        "source_scene": "unknown",
+        "tool_use_id": "6a8fd64e23891158e92a0daa",
+        "session_id": "6a8fa8e96f818cfedf056400",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a8fa8e96f818cfedf056400"
+      }
+    }
+  }
+}
