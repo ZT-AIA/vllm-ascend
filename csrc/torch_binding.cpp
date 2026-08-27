@@ -47,7 +47,9 @@
 #include "attention/recurrent_gated_delta_rule_v310/recurrent_gated_delta_rule_310_torch_adpt.h"
 #include "attention/sparse_attention_score/sparse_attention_score_torch_adpt.h"
 #include "attention/store_kv_block/store_kv_block_torch_adpt.h"
+#include "attention/store_kv_block_new/store_kv_block_new_torch_adpt.h"
 #include "attention/store_kv_block_metadata/store_kv_block_metadata_torch_adpt.cpp"
+#include "attention/store_kv_block_metadata_new/store_kv_block_metadata_new_torch_adpt.cpp"
 #include "moe/dequant_situ_quant/dequant_situ_quant_torch_adpt.h"
 #include "moe/situ_mx_quant/situ_mx_quant_torch_adpt.h"
 #include "attention/mla_prolog_v3/mla_prolog_v3_torch_adpt.h"
@@ -3122,9 +3124,20 @@ TORCH_LIBRARY_EXPAND(CONCAT(_C, _ascend), ops)
     ops.impl("store_kv_block_metadata", torch::kPrivateUse1, &vllm_ascend::store_kv_block_metadata);
 
     ops.def(
+        "store_kv_block_metadata_new(Tensor slot_mapping_npu, Tensor group_len, Tensor group_key_idx, Tensor group_key_cache_idx, int block_size=0)"
+         "-> ()"
+    );
+    ops.impl("store_kv_block_metadata_new", torch::kPrivateUse1, &vllm_ascend::store_kv_block_metadata_new);
+
+    ops.def(
         "store_kv_block(Tensor key_in, Tensor key_cache_in, Tensor group_len, Tensor group_key_idx,Tensor group_key_cache_idx, int block_size=0) -> ()"
     );
     ops.impl("store_kv_block", torch::kPrivateUse1, &vllm_ascend::store_kv_block);
+
+    ops.def(
+        "store_kv_block_new(Tensor key_in, Tensor key_cache_in, Tensor group_len, Tensor group_key_idx,Tensor group_key_cache_idx, int block_size=0) -> ()"
+    );
+    ops.impl("store_kv_block_new", torch::kPrivateUse1, &vllm_ascend::store_kv_block_new);
 
     ops.def(
         "npu_sparse_attention_score("

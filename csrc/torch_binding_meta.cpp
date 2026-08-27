@@ -1837,6 +1837,28 @@ void store_kv_block(
     return;
 
 }
+
+void store_kv_block_metadata_new(
+    const at::Tensor &slot_mapping_npu,
+    const at::Tensor &group_len,
+    const at::Tensor &group_key_idx,
+    const at::Tensor &group_key_cache_idx,
+    int64_t block_size)
+ {
+    return;
+ }
+
+void store_kv_block_new(
+    const at::Tensor &key_in,
+    const at::Tensor &key_cache_in,
+    const at::Tensor &group_len,
+    const at::Tensor &group_key_idx,
+    const at::Tensor &group_key_cache_idx,
+    int64_t block_size)
+{
+    return;
+
+}
 std::tuple<at::Tensor, at::Tensor> dequant_situ_quant_meta(
     const at::Tensor& x,
     const c10::optional<at::Tensor>& weight_scale,
@@ -2038,6 +2060,8 @@ TORCH_LIBRARY_IMPL_EXPAND(CONCAT(_C, _ascend), Meta, ops) {
      // store_kv_block
     ops.impl("store_kv_block_pre", &vllm_ascend::meta::store_kv_block_metadata);
     ops.impl("store_kv_block", &vllm_ascend::meta::store_kv_block);
+    ops.impl("store_kv_block_metadata_new", &vllm_ascend::meta::store_kv_block_metadata_new);
+    ops.impl("store_kv_block_new", &vllm_ascend::meta::store_kv_block_new);
 }
 }
 #endif

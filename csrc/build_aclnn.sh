@@ -133,7 +133,9 @@ elif [[ "$SOC_VERSION" =~ ^ascend910b ]]; then
         "kda_gate_cumsum"
         "kda_layout_swap12"
         "store_kv_block"
+        "store_kv_block_new"
         "store_kv_block_metadata"
+        "store_kv_block_metadata_new"
         "sparse_attention_score"
     )
 
@@ -186,7 +188,9 @@ elif [[ "$SOC_VERSION" =~ ^ascend910_93 ]]; then
         "kda_gate_cumsum"
         "kda_layout_swap12"
         "store_kv_block"
+        "store_kv_block_new"
         "store_kv_block_metadata"
+        "store_kv_block_metadata_new"
         "sparse_attention_score"
     )
     CUSTOM_OPS=$(IFS=';'; echo "${CUSTOM_OPS_ARRAY[*]}")
@@ -225,7 +229,9 @@ elif [[ "$SOC_VERSION" =~ ^ascend950 ]]; then
         "kda_gate_cumsum"
         "kda_layout_swap12"
         "store_kv_block"
+        "store_kv_block_new"
         "store_kv_block_metadata"
+        "store_kv_block_metadata_new"
         "sparse_attention_score"
         "mla_prolog_v3"
     )
