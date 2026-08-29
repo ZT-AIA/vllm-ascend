@@ -1,0 +1,32 @@
+csrc/moe/scatter_nd_update_asc/op_host/scatter_nd_update_asc_tiling.cpp
+  s_ace6b4fa76f4e8::t_c17f8e1db55978 254-255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "450ec04972e633a42048a52e5bde966ba927af25",
+  "prompts": {},
+  "sessions": {
+    "s_ace6b4fa76f4e8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a92681823891158e92a4782",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "operation_id": "6a92e13a23891158e92a5e21",
+        "dedupe_key": "6a92681823891158e92a4782:6a92e13a23891158e92a5e21:afterEdit:b5248d0e",
+        "tool_type": "agent",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "tool_use_id": "6a92e13a23891158e92a5e21",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a92681823891158e92a4782",
+        "tool_id": "Edit",
+        "session_id": "6a92681823891158e92a4782"
+      }
+    }
+  }
+}
