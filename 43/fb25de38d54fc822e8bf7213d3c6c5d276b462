@@ -1,0 +1,129 @@
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  s_b1b3c62a6a0c1c::t_1877c5eb26de8e 467-469
+  s_04116ae7dab3d6::t_891a8b580704a5 383,506
+  s_04116ae7dab3d6::t_d0744ebbdc5962 45-46
+  s_04116ae7dab3d6::t_74d32333e09f90 176,242-247,249-250,253-276,481
+  s_b1b3c62a6a0c1c::t_c03340cca1fe27 248
+  s_04116ae7dab3d6::t_ac886f4aa60f32 536
+  s_b1b3c62a6a0c1c::t_21384f2bb165ee 82-85
+  s_b1b3c62a6a0c1c::t_6fa1154740a38f 251
+  s_04116ae7dab3d6::t_fdacef50b19c17 12-13,17-20,31-44,48,53,55,57,59-65,70,75,80,86-95,99-102,115,119,126-128,147-175,177-241,252,277-281,284,286,289,292,295,298,301,304,307,314,331-333,347-359,365,373,376,381-382,384-399,402,404-412,418,423,425,428,439-450,453-463,465-466,471-476,478-480,483,485,487-488,490-498,503-504,507-508,510,514-519,521,525-526,528,530,537-538,540
+csrc/moe/scatter_nd_update_sk/CMakeLists.txt
+  s_04116ae7dab3d6::t_9f3c46da9d8c39 1-19
+csrc/moe/scatter_nd_update_sk/op_host/op_api/scatter_nd_update_sk.cpp
+  s_04116ae7dab3d6::t_d2dec49a72c785 11-44
+csrc/moe/scatter_nd_update_sk/op_kernel/scatter_nd_update_sk.cpp
+  s_b1b3c62a6a0c1c::t_31867e765b1dd4 63-68
+  s_04116ae7dab3d6::t_c68e8a782764d9 41
+  s_04116ae7dab3d6::t_332f74f5cf339c 51
+  s_04116ae7dab3d6::t_2b335339c6634c 71-72
+  s_04116ae7dab3d6::t_929048b59dd767 24
+  s_04116ae7dab3d6::t_ce8e11859db84a 11-13,15-18,20-23,25-40,42-50,52-62,69-70,73-74,77,85-86,88-89,91-92,94-95,97-98,100
+csrc/moe/scatter_nd_update_sk/op_host/op_api/aclnn_scatter_nd_update_sk.h
+  s_04116ae7dab3d6::t_ec9f22d20974b0 10-57
+vllm_ascend/models/minimax_m3/minimax_m3.py
+  s_b1b3c62a6a0c1c::t_5880f58cfc9e82 290
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_no_sort.h
+  s_04116ae7dab3d6::t_d2474bd8bee45a 29-79
+  s_04116ae7dab3d6::t_a6f499820c777d 20,24-25,27-28,118-120,147-148,151
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_def.cpp
+  s_04116ae7dab3d6::t_9cd0aa2dd47ba5 135-141
+  s_b1b3c62a6a0c1c::t_aa25a40fc5ddde 77
+  s_04116ae7dab3d6::t_b357db881edac6 1-76,78-134,142
+csrc/torch_binding.cpp
+  s_b1b3c62a6a0c1c::t_5940d855ce2956 3074,3078
+  s_b1b3c62a6a0c1c::t_5ab22fe2e2e202 1939,1946
+vllm_ascend/device/device_op.py
+  s_b1b3c62a6a0c1c::t_62f5252f37e99e 727
+  s_b1b3c62a6a0c1c::t_859da5b5e6a690 712,738-739,752,762,775-776
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_infershape.cpp
+  s_04116ae7dab3d6::t_b85d1ec7251dc5 56-57
+  s_04116ae7dab3d6::t_111a1d879a30d6 2,11-12,14,17,21-24,26-29,33,35-42,44,47-52,58
+csrc/moe/scatter_nd_update_sk/op_host/op_api/aclnn_scatter_nd_update_sk.cpp
+  s_04116ae7dab3d6::t_60db453ce8ef9f 12-115
+  s_04116ae7dab3d6::t_ee4b92dfa95b9e 116-117,122
+csrc/moe/scatter_nd_update_sk/op_host/op_api/scatter_nd_update_sk.h
+  s_04116ae7dab3d6::t_8d51e932f50903 11-24
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_large_index.h
+  s_04116ae7dab3d6::t_cd1d5656062729 27-77
+  s_04116ae7dab3d6::t_fff1cb9dfe83d2 20,22,26,139-141,177-178,181
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.h
+  s_04116ae7dab3d6::t_258fc95e4ab40f 44
+  s_04116ae7dab3d6::t_929cced9f3f186 16-17
+  s_04116ae7dab3d6::t_24fa9e98fe9f9c 61
+  s_04116ae7dab3d6::t_aebd51fd76d9e8 69-71
+  s_04116ae7dab3d6::t_ec4da4bce330a5 63
+  s_04116ae7dab3d6::t_92bb18dbef5b97 123
+  s_04116ae7dab3d6::t_29968a0d0a1c4f 85-104
+  s_04116ae7dab3d6::t_286c3bb6045fb3 12-13,18,20-21,23,25-26,42,62,64-68,72-84,105-122,124-164,166-177,180
+csrc/torch_binding_meta.cpp
+  s_b1b3c62a6a0c1c::t_c1edf156fdc899 1449
+  s_b1b3c62a6a0c1c::t_5cfb4813ebd7fc 2023
+csrc/build_aclnn.sh
+  s_b1b3c62a6a0c1c::t_cdd2068d253439 99,149
+csrc/moe/scatter_nd_update_sk/op_host/CMakeLists.txt
+  s_04116ae7dab3d6::t_4d8be465c3ec18 1-26
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update.h
+  s_04116ae7dab3d6::t_73ace6f8942d44 26-66
+  s_04116ae7dab3d6::t_dd9b7317bf264c 12,20-22,24-25,105-106,117,135,153,204-205,211-212,214-216,254-255,257
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_linear_index.h
+  s_04116ae7dab3d6::t_56db31c137ffbb 27-102
+  s_04116ae7dab3d6::t_cb534258f6164a 20,22,26,104-109,113-114,129-131,139-141,197-198,220-221,223-224,288
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_common.h
+  s_04116ae7dab3d6::t_e7b95e272a99d8 13,16-17,21,29,54-84,86-87,98-143,145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "43fb25de38d54fc822e8bf7213d3c6c5d276b462",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_04116ae7dab3d6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9643c423891158e92a6bd5",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "session_id": "6a9643c423891158e92a6bd5",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a9690b023891158e92a7d4b",
+        "tool_id": "Edit",
+        "dedupe_key": "6a9643c423891158e92a6bd5:6a9690b023891158e92a7d4b:afterEdit:32dee57f",
+        "tool_type": "agent",
+        "tool_use_id": "6a9690b023891158e92a7d4b",
+        "external_session_id": "6a9643c423891158e92a6bd5",
+        "client_type": "ide"
+      }
+    },
+    "s_b1b3c62a6a0c1c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9691a423891158e92a7d5f",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6a9691a423891158e92a7d5f",
+        "external_session_id": "6a9691a423891158e92a7d5f",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "client_type": "ide",
+        "tool_use_id": "6a96b6f223891158e92a8120",
+        "dedupe_key": "6a9691a423891158e92a7d5f:6a96b6f223891158e92a8120:afterEdit:c5358312",
+        "edit_kind": "file_edit",
+        "operation_id": "6a96b6f223891158e92a8120",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
