@@ -1,0 +1,125 @@
+csrc/attention/lightning_indexer_v2/op_kernel/arch35/vf/common/lightning_indexer_v2_vector1_base.h
+  s_d6be0e98ce170c::t_f6ea19c687af97 1-277
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/quant_lightning_indexer_v2_metadata.cpp
+  s_d6be0e98ce170c::t_eb4193d33c3f24 1-57
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/vf/vf_topk_16_gather_quant_v2.h
+  s_d6be0e98ce170c::t_7effd2f0095902 1-514
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_tiling.cpp
+  s_d6be0e98ce170c::t_a2f03605443799 1-1660
+vllm_ascend/models/deepseek_v4/indexer.py
+  s_d6be0e98ce170c::t_99c33e5ef1ffdc 195,201-205,208-210,212
+csrc/torch_binding.cpp
+  s_d6be0e98ce170c::t_532e96448c442e 1042-1076,1118-1161,1313-1353,2521-2540,2623-2646
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_quant_lightning_indexer_v2.py
+  s_d6be0e98ce170c::t_61dc77148a315a 1-118
+csrc/attention/quant_lightning_indexer_v2/op_host/CMakeLists.txt
+  s_d6be0e98ce170c::t_4ca3eb3708a8c6 1-19
+csrc/attention/quant_lightning_indexer_v2_metadata/op_kernel_aicpu/quant_lightning_indexer_v2_metadata_aicpu.h
+  s_d6be0e98ce170c::t_6f710f339d37a3 1-302
+csrc/attention/quant_lightning_indexer_v2_metadata/README.md
+  s_d6be0e98ce170c::t_f5b516d5a3936a 1-205
+csrc/attention/common/op_kernel/aicpu_common.h
+  s_d6be0e98ce170c::t_28a9b339ea179f 1-147
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/vf/quant_lightning_indexer_v2_vector1.h
+  s_d6be0e98ce170c::t_cce79c5ebb5071 1-1502
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/vf/quant_lightning_indexer_v2_topk.h
+  s_d6be0e98ce170c::t_e6e4b292ba53de 1-221
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_vector.h
+  s_d6be0e98ce170c::t_1a54c4ed58f74f 1-193
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/quant_lightning_indexer_v2_common_arch35.h
+  s_d6be0e98ce170c::t_707b66e86682d5 1-232
+tests/ut/attention/test_dsa_v1.py
+  s_d6be0e98ce170c::t_7836c8097ce368 688-690
+  s_d6be0e98ce170c::t_07cda222880d04 719
+  s_d6be0e98ce170c::t_645714d27caed8 546,551,564-567
+csrc/build_aclnn.sh
+  s_d6be0e98ce170c::t_87581cdbc5696a 116-117,171-172,212-213
+csrc/attention/quant_lightning_indexer_v2/op_kernel/quant_lightning_indexer_v2_template_tiling_key.h
+  s_d6be0e98ce170c::t_e0b0c96e90f69a 1-134
+tests/ut/models/test_deepseek_v4_indexer.py
+  s_d6be0e98ce170c::t_39776fa99fb6fa 389-391,417
+  s_d6be0e98ce170c::t_a32b744fc6e59b 446-448,451-456
+csrc/attention/quant_lightning_indexer_v2/op_kernel/quant_lightning_indexer_v2.cpp
+  s_d6be0e98ce170c::t_69ea6103fba242 1-78
+csrc/attention/quant_lightning_indexer_v2/CMakeLists.txt
+  s_d6be0e98ce170c::t_188fa03f253c61 1-9
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/aclnn_quant_lightning_indexer_v2_metadata.cpp
+  s_d6be0e98ce170c::t_88ed026098979e 1-144
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/vf/vf_topk.h
+  s_d6be0e98ce170c::t_bf4b42f5c9e2d3 1-609
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_common_arch22.h
+  s_d6be0e98ce170c::t_25adff54c8b495 1-165
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/quant_lightning_indexer_v2_metadata_check.h
+  s_d6be0e98ce170c::t_03194778d5559c 1-532
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_infershape.cpp
+  s_d6be0e98ce170c::t_78151a5c819e3a 1-107
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_service_cube_arch22.h
+  s_d6be0e98ce170c::t_6b422270e49894 1-617
+csrc/attention/quant_lightning_indexer_v2/README.md
+  s_d6be0e98ce170c::t_061d7d9921b43b 1-78
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_tiling.h
+  s_d6be0e98ce170c::t_86d01295644ca0 1-278
+csrc/attention/quant_lightning_indexer_v2_metadata/op_kernel_aicpu/quant_lightning_indexer_v2_metadata_aicpu.json
+  s_d6be0e98ce170c::t_bdf1460cad6af9 1-15
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/quant_lightning_indexer_v2_kernel_arch35.h
+  s_d6be0e98ce170c::t_50bbecd80241ac 1-855
+vllm_ascend/attention/dsa_v1.py
+  s_d6be0e98ce170c::t_3e25732dbfcb9c 280-282,600-608,872-887,891-895,898-901,1103-1113,1129-1131
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_kernel_arch22.h
+  s_d6be0e98ce170c::t_8bcbf650e0df94 1-822
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/quant_lightning_indexer_v2_metadata.h
+  s_d6be0e98ce170c::t_2f96fb3447f5f3 1-25
+csrc/attention/quant_lightning_indexer_v2_metadata/CMakeLists.txt
+  s_d6be0e98ce170c::t_85cd04db9db8af 1-11
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/aclnn_quant_lightning_indexer_v2_metadata.h
+  s_d6be0e98ce170c::t_145a6d6e6dcfac 1-37
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/quant_lightning_indexer_v2_metadata_infershape.cpp
+  s_d6be0e98ce170c::t_01e006c792cd7d 1-38
+csrc/attention/quant_lightning_indexer_v2_metadata/op_kernel_aicpu/quant_lightning_indexer_v2_metadata_aicpu.cpp
+  s_d6be0e98ce170c::t_cbc9c2be4affba 1-933
+csrc/attention/quant_lightning_indexer_v2_metadata/op_graph/quant_lightning_indexer_v2_metadata_proto.h
+  s_d6be0e98ce170c::t_e426e5e484f06f 1-48
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/quant_lightning_indexer_v2_service_cube_arch35.h
+  s_d6be0e98ce170c::t_e84d4d74fcc47a 1-757
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_def.cpp
+  s_d6be0e98ce170c::t_18aa1b14f10b79 1-181
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch35/quant_lightning_indexer_v2_service_vector_arch35.h
+  s_d6be0e98ce170c::t_69733b3d342c2c 1-1121
+csrc/attention/quant_lightning_indexer_v2/op_kernel/quant_lightning_indexer_v2_metadata.h
+  s_d6be0e98ce170c::t_19288823c57530 1-79
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_service_vector_arch22.h
+  s_d6be0e98ce170c::t_d016f6c974d0be 1-630
+vllm_ascend/attention/context_parallel/dsa_cp.py
+  s_d6be0e98ce170c::t_5076ebd766543c 128-130,248-249,1012-1014,1255-1267,1272,1276-1280,1283-1286,2158-2160,2166-2175,2177
+csrc/torch_binding_meta.cpp
+  s_d6be0e98ce170c::t_8f8caa4c041bdf 878-903,925-949,1073-1113,2097-2098
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2651c81b57f0176d14fc97af94bb3d5d7b6154ed",
+  "prompts": {},
+  "sessions": {
+    "s_d6be0e98ce170c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9bc97d23891158e92a8f9d",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": null,
+      "custom_attributes": {
+        "tool_type": "agent",
+        "edit_kind": "file_edit",
+        "operation_id": "6a9c273923891158e92a96ba",
+        "session_id": "6a9bc97d23891158e92a8f9d",
+        "tool_use_id": "6a9c273923891158e92a96ba",
+        "tool_id": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a9bc97d23891158e92a8f9d",
+        "source_scene": "unknown",
+        "dedupe_key": "6a9bc97d23891158e92a8f9d:6a9c273923891158e92a96ba:afterEdit:78a3ec4f",
+        "client_type": "ide"
+      }
+    }
+  }
+}
