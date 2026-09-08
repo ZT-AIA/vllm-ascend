@@ -1,0 +1,80 @@
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_a3_tiling.cpp
+  s_d33d0b0fceedb8::t_9e73ff62dff5d2 312
+  s_d33d0b0fceedb8::t_1f77ac72f1575c 564
+  s_d33d0b0fceedb8::t_a89effaeb7ae4b 102
+  s_d33d0b0fceedb8::t_ea2e953fda7ad0 139
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_inplace_partial_rotary_mul.py
+  s_d33d0b0fceedb8::t_e2df05261bc5b7 1-17,19-32,34,36-96
+  s_d33d0b0fceedb8::t_fb298e38823535 33,35
+  s_d33d0b0fceedb8::t_14e538d87a860a 18
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_s.h
+  s_d33d0b0fceedb8::t_4ff0efb322e87f 268
+  s_d33d0b0fceedb8::t_9a59ea8087be0a 303
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_s_pad.h
+  s_d33d0b0fceedb8::t_a967dab2410f66 282
+  s_d33d0b0fceedb8::t_68f6d1ce7cd99e 318
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_tiling.h
+  s_d33d0b0fceedb8::t_9ce35d4cc0754f 94
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bsn.h
+  s_d33d0b0fceedb8::t_e21a88f4a44095 270
+  s_d33d0b0fceedb8::t_a1282c628239ac 304
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_proto.cpp
+  s_d33d0b0fceedb8::t_2fed1b23c67be3 60
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bs.h
+  s_d33d0b0fceedb8::t_b97347621bee2d 306
+  s_d33d0b0fceedb8::t_4a85f018bde9ff 271
+csrc/attention/inplace_partial_rotary_mul/op_kernel/inplace_partial_rotary_mul.h
+  s_d33d0b0fceedb8::t_defea66e2dab17 287
+  s_d33d0b0fceedb8::t_f7d148aa64d9b1 198
+  s_d33d0b0fceedb8::t_f1516d53c1e17c 200-201,206-207
+  s_d33d0b0fceedb8::t_58419d74585e3f 40
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bs_pad.h
+  s_d33d0b0fceedb8::t_2c4934cd2ea6eb 318
+  s_d33d0b0fceedb8::t_18c5f766b6f503 280
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_common.h
+  s_d33d0b0fceedb8::t_17ab23ee3851eb 118-119,129-130
+  s_d33d0b0fceedb8::t_c5e355294d2d21 127-128,131-132
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_tiling.cpp
+  s_d33d0b0fceedb8::t_793a0712ce0966 81-85
+csrc/torch_binding.cpp
+  s_d33d0b0fceedb8::t_dc5c988a692b82 1646
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bsn_pad.h
+  s_d33d0b0fceedb8::t_6fc866f4104c66 311
+  s_d33d0b0fceedb8::t_c3f580ad77f1be 277
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_def.cpp
+  s_d33d0b0fceedb8::t_7539f28204663d 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8e63b76ed6d363c1877f6de0b093ca193b8e19f8",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "session_id": "6a9e27ac23891158e92a9e1a",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a9e27ac23891158e92a9e1a",
+        "operation_id": "6a9fdbd223891158e92aa9d3",
+        "dedupe_key": "6a9e27ac23891158e92a9e1a:6a9fdbd223891158e92aa9d3:afterEdit:9f09b65a",
+        "tool_use_id": "6a9fdbd223891158e92aa9d3",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}
