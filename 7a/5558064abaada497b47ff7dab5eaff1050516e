@@ -1,0 +1,19 @@
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  s_d33d0b0fceedb8::t_f458dbf964cae6 508-509
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "7a5558064abaada497b47ff7dab5eaff1050516e",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}
