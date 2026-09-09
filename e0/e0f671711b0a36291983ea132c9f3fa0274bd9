@@ -1,0 +1,25 @@
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/grouped_matmul_swiglu_quant_tiling.cpp
+  s_d33d0b0fceedb8::t_ba94de19a0f80f 143-145
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/aclnn_grouped_matmul_swiglu_quant.cpp
+  s_d33d0b0fceedb8::t_74f255eedfbcad 455-456,495
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/grouped_matmul_swiglu_quant.cpp
+  s_d33d0b0fceedb8::t_e3602b22699062 23
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/grouped_matmul_swiglu_quant.h
+  s_d33d0b0fceedb8::t_e15c1ff454b6e5 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e0e0f671711b0a36291983ea132c9f3fa0274bd9",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}
