@@ -1,0 +1,32 @@
+vllm_ascend/attention/dsa_v1.py
+  s_d33d0b0fceedb8::t_1a1b96250bdd20 1770
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ea4efc34e7204e57078edebd6ff3cda24458052c",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6aa102e023891158e92aab70",
+        "tool_type": "agent",
+        "session_id": "6a9e27ac23891158e92a9e1a",
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "tool_use_id": "6aa102e023891158e92aab70",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a9e27ac23891158e92a9e1a",
+        "dedupe_key": "6a9e27ac23891158e92a9e1a:6aa102e023891158e92aab70:afterEdit:31deb104"
+      }
+    }
+  }
+}
