@@ -1,0 +1,26 @@
+CMakeLists.txt
+  s_7950baf9dbbc48::t_ed6ecb655b12d4 88
+vllm_ascend/attention/sfa_v1.py
+  s_7950baf9dbbc48::t_6a284cf6e75465 1201-1218,1221,1223,1225
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5fd5010c85efee0f6820aab8a32a3618846816bb",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_7950baf9dbbc48": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aafc7ea97b7a93350899401",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}
