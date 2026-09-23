@@ -1,0 +1,98 @@
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_regbase.h
+  s_d1102f655b2ae5::t_dc22ea651394b7 22
+  s_d1102f655b2ae5::t_5fb15b5d868146 1-21,23-165
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_deterministic_simt.h
+  s_d1102f655b2ae5::t_2ec10329501703 51
+  s_d1102f655b2ae5::t_9949de8a644788 21
+  s_d1102f655b2ae5::t_d11ea519f7b080 1-20,22-50,52-149
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simd_mask.h
+  s_d1102f655b2ae5::t_7e88f26baec583 21
+  s_d1102f655b2ae5::t_470d5bb58f15bb 29-49
+  s_d1102f655b2ae5::t_f278d80a58970d 1-20,22-28,50-211
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  s_d1102f655b2ae5::t_4b079b9c4df778 22
+  s_d1102f655b2ae5::t_c67c579d8e06ed 19
+  s_d1102f655b2ae5::t_fba64c5d4ee346 527,530-535
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_def.cpp
+  s_d1102f655b2ae5::t_4be6c59b278826 143-154
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_large_index.h
+  s_d1102f655b2ae5::t_8b7af0e0c22cc7 123-127
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_infershape.cpp
+  s_d1102f655b2ae5::t_8ffd44252cae9e 43
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_scatter_nd_update_sk.py
+  s_d1102f655b2ae5::t_0fcd456dd75b9c 9-10,12-16
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simt.h
+  s_d1102f655b2ae5::t_21ba2a2bd9e4fa 81-96
+  s_d1102f655b2ae5::t_f97463161298e5 1-80,97-288
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_deterministic_simd.h
+  s_d1102f655b2ae5::t_20a387a3da9eef 21
+  s_d1102f655b2ae5::t_935c096f811bd2 29
+  s_d1102f655b2ae5::t_bc01db6e8dd276 1-20,22-28,30-131
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_hp.h
+  s_d1102f655b2ae5::t_3322c66a008d25 241-244
+  s_d1102f655b2ae5::t_3a2b9388faa0f2 223-229
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/indices_sort_utils.h
+  s_d1102f655b2ae5::t_d32adc290a7ee1 18
+  s_d1102f655b2ae5::t_679e27855451e3 1-17,19-208
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simt_sort.h
+  s_d1102f655b2ae5::t_7327ec3d32730b 71-89
+  s_d1102f655b2ae5::t_5736c51a6f38f5 1-70,90-287
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_arch35.cpp
+  s_d1102f655b2ae5::t_3d99974305b1f4 1012-1014
+  s_d1102f655b2ae5::t_1a4ad89cfe3cb0 1031-1033
+  s_d1102f655b2ae5::t_9c8fab73088db3 352-354
+  s_d1102f655b2ae5::t_cbdeaad6b3fc38 1-351,355-1011,1015-1030,1034-1135
+csrc/build_aclnn.sh
+  s_d1102f655b2ae5::t_71254ce1b4db83 211
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_common.h
+  s_d1102f655b2ae5::t_4c4c90493ef5fa 420-436
+  s_d1102f655b2ae5::t_c98397a970e43c 19-20
+  s_d1102f655b2ae5::t_20e18516613cce 1-18,21-419,437-653
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simd.h
+  s_d1102f655b2ae5::t_563eac37f85f4a 29-47
+  s_d1102f655b2ae5::t_9a016ec148788a 21
+  s_d1102f655b2ae5::t_b4c0ecf8530627 1-20,22-28,48-259
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_struct.h
+  s_d1102f655b2ae5::t_dd72e0405d01a4 22
+  s_d1102f655b2ae5::t_f4d1a3b959dfb8 1-21,23-83
+csrc/moe/scatter_nd_update_sk/op_kernel/scatter_nd_update_sk_apt.cpp
+  s_d1102f655b2ae5::t_eca868e5521612 1-124
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/sk_math_util.h
+  s_d1102f655b2ae5::t_f7d961a57442f9 1-62
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/load_store_utils.h
+  s_d1102f655b2ae5::t_d54cd8b32b0c07 1-361
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "3ee52047f9db2499235e110fdaec8f7b073de936",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_d1102f655b2ae5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab3346897b7a9335089991b",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "external_session_id": "6ab3346897b7a9335089991b",
+        "session_id": "6ab3346897b7a9335089991b",
+        "tool_use_id": "6ab3bafb97b7a9335089a166",
+        "dedupe_key": "6ab3346897b7a9335089991b:6ab3bafb97b7a9335089a166:afterEdit:fdf79293",
+        "edit_kind": "file_edit",
+        "tool_type": "agent",
+        "operation_id": "6ab3bafb97b7a9335089a166",
+        "source_scene": "unknown",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
