@@ -1,0 +1,74 @@
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_scatter_nd_update_sk.py
+  s_d1102f655b2ae5::t_1522e1c80b925a 16
+  s_d1102f655b2ae5::t_87e12a416178bd 9-10,12-15,17
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_struct.h
+  s_d1102f655b2ae5::t_92a03f266ad032 33-69
+  s_d1102f655b2ae5::t_2ee452acec27d2 1-32,70-83
+csrc/build_aclnn.sh
+  s_d1102f655b2ae5::t_ebeb361f9fe588 207
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_def.cpp
+  s_d1102f655b2ae5::t_83157bc225fa73 143-154
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_infershape.cpp
+  s_d1102f655b2ae5::t_e5f655006592dd 43
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  s_d1102f655b2ae5::t_e34d4d13692856 19,22,527,530-535
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_arch35.cpp
+  s_d1102f655b2ae5::t_15a2b86b9be2a6 1-1135
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_regbase.h
+  s_d1102f655b2ae5::t_160f290a4a7f28 1-165
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_hp.h
+  s_d1102f655b2ae5::t_ba1323f26445a5 223-229,241-244
+csrc/moe/scatter_nd_update_sk/op_kernel/arch22/scatter_nd_update_large_index.h
+  s_d1102f655b2ae5::t_78c3bb762ca6b1 123-127
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/indices_sort_utils.h
+  s_d1102f655b2ae5::t_4ecb99ead09643 1-208
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/load_store_utils.h
+  s_d1102f655b2ae5::t_1a81f7f4cd840f 1-361
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_common.h
+  s_d1102f655b2ae5::t_513803a3e0b867 1-653
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_deterministic_simd.h
+  s_d1102f655b2ae5::t_056f926d5b4e98 1-131
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_deterministic_simt.h
+  s_d1102f655b2ae5::t_11b4b307371083 1-149
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simd.h
+  s_d1102f655b2ae5::t_377ab7cd666637 1-259
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simd_mask.h
+  s_d1102f655b2ae5::t_c6eb5b608ab0e1 1-211
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simt.h
+  s_d1102f655b2ae5::t_8a5b9cf4ed35ff 1-288
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/scatter_nd_update_simt_sort.h
+  s_d1102f655b2ae5::t_8c3047e985c047 1-287
+csrc/moe/scatter_nd_update_sk/op_kernel/arch35/sk_math_util.h
+  s_d1102f655b2ae5::t_818f4964f2fd1b 1-62
+csrc/moe/scatter_nd_update_sk/op_kernel/scatter_nd_update_sk_apt.cpp
+  s_d1102f655b2ae5::t_cc5e0a43a758fa 1-124
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "495aff5d79bb2c245750b5d0e8a199ce596dd5a2",
+  "prompts": {},
+  "sessions": {
+    "s_d1102f655b2ae5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab3346897b7a9335089991b",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "tool_id": "Edit",
+        "session_id": "6ab3346897b7a9335089991b",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6ab3beed97b7a9335089a1d7",
+        "tool_type": "agent",
+        "dedupe_key": "6ab3346897b7a9335089991b:6ab3beed97b7a9335089a1d7:afterEdit:3b75b0e9",
+        "edit_kind": "file_edit",
+        "external_session_id": "6ab3346897b7a9335089991b",
+        "client_type": "ide",
+        "operation_id": "6ab3beed97b7a9335089a1d7",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}
