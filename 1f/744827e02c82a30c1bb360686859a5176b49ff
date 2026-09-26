@@ -1,0 +1,35 @@
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_9486252bffa6a4::t_e0ae57f976c5a3 422-424
+vllm_ascend/ascend_config.py
+  s_9486252bffa6a4::t_e6d2903394c1a7 1112-1119,1121-1122
+  s_9486252bffa6a4::t_32b713f2b97bdd 1040-1064
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "1f744827e02c82a30c1bb360686859a5176b49ff",
+  "prompts": {},
+  "sessions": {
+    "s_9486252bffa6a4": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab5ecea97b7a9335089a345",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6ab5ecea97b7a9335089a345",
+        "external_session_id": "6ab5ecea97b7a9335089a345",
+        "source_scene": "unknown",
+        "operation_id": "6ab7865097b7a9335089a63a",
+        "dedupe_key": "6ab5ecea97b7a9335089a345:6ab7865097b7a9335089a63a:afterEdit:11c773d5",
+        "tool_use_id": "6ab7865097b7a9335089a63a",
+        "tool_id": "Edit",
+        "tool_type": "agent"
+      }
+    }
+  }
+}
