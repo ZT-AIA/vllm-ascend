@@ -1,0 +1,36 @@
+csrc/attention/store_kv_block/op_host/store_kv_block_def.cpp
+  s_430e5cd8b30992::t_8944d815a74a41 60
+csrc/attention/store_kv_block/op_host/store_kv_block_tiling.cpp
+  s_430e5cd8b30992::t_5bee6c72463715 111-115
+vllm_ascend/meta_registration.py
+  s_430e5cd8b30992::t_df9f2dc60de76d 52-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "bbd63dc58c9ff4d72837ff10e74668e7f1d44314",
+  "prompts": {},
+  "sessions": {
+    "s_430e5cd8b30992": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa27a9f97b7a93350897778",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "source_scene": "unknown",
+        "dedupe_key": "6aa27a9f97b7a93350897778:6aa93bd797b7a9335089893a:afterEdit:e243da6b",
+        "tool_use_id": "6aa93bd797b7a9335089893a",
+        "session_id": "6aa27a9f97b7a93350897778",
+        "operation_id": "6aa93bd797b7a9335089893a",
+        "external_session_id": "6aa27a9f97b7a93350897778",
+        "tool_type": "agent",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
