@@ -1,0 +1,32 @@
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_scatter_nd_update_sk.py
+  s_b1b3c62a6a0c1c::t_266322a2eecdb8 1-117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "07701790451caf2b4ba4072d8307d8f01fb630ae",
+  "prompts": {},
+  "sessions": {
+    "s_b1b3c62a6a0c1c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9691a423891158e92a7d5f",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "source_scene": "unknown",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a9691a423891158e92a7d5f",
+        "operation_id": "6a96dfdc23891158e92a83c5",
+        "dedupe_key": "6a9691a423891158e92a7d5f:6a96dfdc23891158e92a83c5:afterEdit:4574c7db",
+        "tool_type": "agent",
+        "tool_id": "Write",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a96dfdc23891158e92a83c5",
+        "session_id": "6a9691a423891158e92a7d5f"
+      }
+    }
+  }
+}

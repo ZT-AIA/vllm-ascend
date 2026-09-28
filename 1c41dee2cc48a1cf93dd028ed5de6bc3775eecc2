@@ -1,0 +1,32 @@
+csrc/attention/compressor_metadata/op_kernel/compressor_metadata.h
+  s_d1102f655b2ae5::t_1d5e81767c4d0e 84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "1c41dee2cc48a1cf93dd028ed5de6bc3775eecc2",
+  "prompts": {},
+  "sessions": {
+    "s_d1102f655b2ae5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab3346897b7a9335089991b",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "tool_use_id": "6ab4a14a97b7a9335089a2b6",
+        "source_scene": "unknown",
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "external_session_id": "6ab3346897b7a9335089991b",
+        "dedupe_key": "6ab3346897b7a9335089991b:6ab4a14a97b7a9335089a2b6:afterEdit:b31e3da9",
+        "client_type": "ide",
+        "operation_id": "6ab4a14a97b7a9335089a2b6",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6ab3346897b7a9335089991b",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}

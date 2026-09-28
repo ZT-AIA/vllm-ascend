@@ -1,0 +1,33 @@
+vllm_ascend/ops/triton/docs/triton_description_specification.md
+  s_372b30fd07ce63::t_4f7de5441ffdc7 36
+  s_372b30fd07ce63::t_3b92b1db330b83 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "38174a1f007963feba7449def95eb6537333e141",
+  "prompts": {},
+  "sessions": {
+    "s_372b30fd07ce63": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7e92722d958dff5ec45470",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a8e8950ca7cd3c865f09784",
+        "edit_kind": "file_edit",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "operation_id": "6a8e8950ca7cd3c865f09784",
+        "session_id": "6a7e92722d958dff5ec45470",
+        "dedupe_key": "6a7e92722d958dff5ec45470:6a8e8950ca7cd3c865f09784:afterEdit:a626a442",
+        "source_scene": "agent",
+        "external_session_id": "6a7e92722d958dff5ec45470"
+      }
+    }
+  }
+}

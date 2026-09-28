@@ -1,0 +1,32 @@
+tests/e2e/pull_request/four_card/test_pipeline_parallel.py
+  s_d6be0e98ce170c::t_25afd77d75432c 97-155
+  s_d6be0e98ce170c::t_f2a1f295bdd905 204
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "49c1cb356c7dfd4685af8b796283b6c01e1c1f76",
+  "prompts": {},
+  "sessions": {
+    "s_d6be0e98ce170c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9bc97d23891158e92a8f9d",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a9d162023891158e92a978e",
+        "operation_id": "6a9d162023891158e92a978e",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a9bc97d23891158e92a8f9d",
+        "session_id": "6a9bc97d23891158e92a8f9d",
+        "source_scene": "agent",
+        "tool_name": "Edit",
+        "client_type": "ide",
+        "display_model_name": "GLM-5.3"
+      }
+    }
+  }
+}

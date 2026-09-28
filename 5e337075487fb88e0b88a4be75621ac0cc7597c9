@@ -1,0 +1,25 @@
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  h_f61697d13c8775 511-512,514
+  s_04116ae7dab3d6::t_f28886d1e9a583 513
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5e337075487fb88e0b88a4be75621ac0cc7597c9",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_04116ae7dab3d6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9643c423891158e92a6bd5",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}

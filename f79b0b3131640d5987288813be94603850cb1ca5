@@ -1,0 +1,47 @@
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_a3_tiling.cpp
+  s_d33d0b0fceedb8::t_907c3ca0fbc670 102,139,312,564
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_def.cpp
+  s_d33d0b0fceedb8::t_0c575f4ec546cd 47
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_proto.cpp
+  s_d33d0b0fceedb8::t_e54592ab5c4ac6 60
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_tiling.cpp
+  s_d33d0b0fceedb8::t_74f63a3b5d956f 81-85
+csrc/attention/inplace_partial_rotary_mul/op_host/inplace_partial_rotary_mul_tiling.h
+  s_d33d0b0fceedb8::t_d5d5a773cb3715 94
+csrc/attention/inplace_partial_rotary_mul/op_kernel/inplace_partial_rotary_mul.h
+  s_d33d0b0fceedb8::t_e880346e93e16b 40,198,200-202,207-208,288
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_common.h
+  s_d33d0b0fceedb8::t_5d59445a62d38a 118-119,127-132
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bs.h
+  s_d33d0b0fceedb8::t_60e260a433c9ac 271,306
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bs_pad.h
+  s_d33d0b0fceedb8::t_d7aa5f4ac4d933 280,318
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bsn.h
+  s_d33d0b0fceedb8::t_34b6f96a230780 270,304
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_bsn_pad.h
+  s_d33d0b0fceedb8::t_3148d462b413b1 277,311
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_s.h
+  s_d33d0b0fceedb8::t_a6f1b466284492 268,303
+csrc/attention/inplace_partial_rotary_mul/op_kernel/rotate_interleaved_split_s_pad.h
+  s_d33d0b0fceedb8::t_b6368da7b15181 282,318
+csrc/torch_binding.cpp
+  s_d33d0b0fceedb8::t_cb3255a90537f7 1536
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_inplace_partial_rotary_mul.py
+  s_d33d0b0fceedb8::t_eaa94b25150f48 1-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "f79b0b3131640d5987288813be94603850cb1ca5",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}

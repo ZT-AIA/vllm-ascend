@@ -1,0 +1,39 @@
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/aclnn_grouped_matmul_swiglu_quant.cpp
+  s_d33d0b0fceedb8::t_35b504865b99ad 495
+  s_d33d0b0fceedb8::t_ebc58bab0f1678 455-456
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/grouped_matmul_swiglu_quant.cpp
+  s_d33d0b0fceedb8::t_2941371c725755 23
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/op_api/grouped_matmul_swiglu_quant.h
+  s_d33d0b0fceedb8::t_2c77ca8d907a33 18
+csrc/gmm/grouped_matmul_swiglu_quant/op_host/grouped_matmul_swiglu_quant_tiling.cpp
+  s_d33d0b0fceedb8::t_5e7769c6ccf078 143-145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "46bef64db4658990183b0f221242d25c26c0155e",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "session_id": "6a9e27ac23891158e92a9e1a",
+        "tool_type": "agent",
+        "dedupe_key": "6a9e27ac23891158e92a9e1a:6a9e75c723891158e92aa024:afterEdit:2355c3c5",
+        "operation_id": "6a9e75c723891158e92aa024",
+        "external_session_id": "6a9e27ac23891158e92a9e1a",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "tool_use_id": "6a9e75c723891158e92aa024"
+      }
+    }
+  }
+}

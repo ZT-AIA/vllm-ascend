@@ -1,0 +1,37 @@
+tests/ut/device/test_device_op.py
+  s_b1b3c62a6a0c1c::t_da3d525267d3a1 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "a15a7a308ea8971dec37de4e689733bfea34ed26",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_b1b3c62a6a0c1c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9691a423891158e92a7d5f",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": null,
+      "custom_attributes": {
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "source_scene": "unknown",
+        "operation_id": "6a97e1c923891158e92a89bb",
+        "external_session_id": "6a9691a423891158e92a7d5f",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a97e1c923891158e92a89bb",
+        "dedupe_key": "6a9691a423891158e92a7d5f:6a97e1c923891158e92a89bb:afterEdit:f8781634",
+        "client_type": "ide",
+        "session_id": "6a9691a423891158e92a7d5f"
+      }
+    }
+  }
+}

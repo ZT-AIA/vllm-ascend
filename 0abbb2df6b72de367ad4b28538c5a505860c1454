@@ -1,0 +1,100 @@
+csrc/moe/chunk_fwd_o_vllm/op_host/chunk_fwd_o_vllm_def.cpp
+  s_8014793c174794::t_f9ead2b4f32204 19-103
+csrc/moe/chunk_fwd_o_vllm/op_host/chunk_fwd_o_vllm_tiling.h
+  s_8014793c174794::t_8616eace1bf1bf 23-45
+  s_8014793c174794::t_985daccd2f1886 11
+csrc/moe/chunk_fwd_o_vllm/op_kernel/arch20/gemm/kernel/gdn_fwd_o_kernel.hpp
+  s_8014793c174794::t_f52ed6ee252c48 174
+csrc/moe/chunk_fwd_o_vllm/op_host/op_api/aclnn_chunk_fwd_o_vllm.cpp
+  s_8014793c174794::t_ce97dd5d9e1783 137
+  s_8014793c174794::t_7dcb7fb1d5e0bc 110,126,151-153
+  s_8014793c174794::t_95ba1439461021 10-11
+  s_8014793c174794::t_1e0cd96b5f0bbd 155
+  s_8014793c174794::t_51330cbe4a24be 38-101,124
+vllm_ascend/_310p/ops/fla/chunk_gated_delta_rule.py
+  s_8014793c174794::t_593a0eb6c92750 567
+  s_8014793c174794::t_c374a99b5fae45 194-195
+tests/ut/ops/test_gdn_chunk_meta.py
+  s_8014793c174794::t_2c8e8f457828bf 204
+  s_8014793c174794::t_5e4a9e3bc12ccd 296,398
+csrc/moe/chunk_fwd_o_vllm/op_host/CMakeLists.txt
+  s_8014793c174794::t_ea8ad630aa7877 17
+  s_8014793c174794::t_60a38b79dd7439 12
+  s_8014793c174794::t_14f99bf12828b4 26
+csrc/moe/chunk_fwd_o_vllm/op_host/op_api/chunk_fwd_o_vllm.h
+  s_8014793c174794::t_5ef14f2439014f 16
+  s_8014793c174794::t_11e80784ecef34 10-11
+vllm_ascend/ops/triton/fla/chunk.py
+  s_8014793c174794::t_3a7762894fb9be 197
+csrc/moe/chunk_fwd_o_vllm/op_kernel/arch20/gemm/block/block_scheduler_gdn_fwd_o.hpp
+  s_8014793c174794::t_195db4cfd2efef 107
+.github/workflows/_selected_tests.yaml
+  s_8014793c174794::t_2ce7c6c0a35395 258
+  s_8014793c174794::t_2b16d550501bdc 252
+csrc/moe/chunk_fwd_o_vllm/op_kernel/arch22/gemm/kernel/gdn_fwd_o_kernel.hpp
+  s_8014793c174794::t_852e1c59899868 203
+csrc/moe/chunk_fwd_o_vllm/op_host/op_api/aclnn_chunk_fwd_o_vllm.h
+  s_8014793c174794::t_64e45070e2dcad 18-56
+  s_8014793c174794::t_a8b5117921594d 10-11
+tests/e2e/nightly/310p/single_node/ops/singlecard_ops/test_chunk_fwd_o_vllm_310.py
+  s_8014793c174794::t_89cfe0ea14a686 16
+  s_8014793c174794::t_709590923d3a56 73-74
+  s_8014793c174794::t_3e944af7ce04d4 2
+csrc/build_aclnn.sh
+  s_8014793c174794::t_d9d2133562929b 87,130,188,229
+csrc/torch_binding.cpp
+  s_8014793c174794::t_99916632d9f13c 2007
+  s_8014793c174794::t_4ced720ea688f6 1987
+  s_8014793c174794::t_2cfb129365ff98 2790,3569
+  s_8014793c174794::t_4669b364f57c8d 2792,3571
+csrc/torch_binding_meta.cpp
+  s_8014793c174794::t_8ddbb66fa2c161 2083-2084,2188-2189
+  s_8014793c174794::t_a8b4c3cdfc02f3 1790
+csrc/moe/chunk_fwd_o_vllm/op_host/op_api/chunk_fwd_o_vllm.cpp
+  s_8014793c174794::t_54b2a7d5bfcf0f 19-56
+  s_8014793c174794::t_d3febdcee9d4ca 14
+csrc/moe/chunk_fwd_o_vllm/op_kernel/arch22/gemm/block/block_scheduler_gdn_fwd_o.hpp
+  s_8014793c174794::t_47cff1f83dc180 108
+csrc/moe/chunk_fwd_o_vllm/op_kernel/chunk_fwd_o_vllm.cpp
+  s_8014793c174794::t_dc1b100ac2fe12 11
+  s_8014793c174794::t_51a6b00449ccf8 15
+  s_8014793c174794::t_fb02ba1c614e03 38
+  s_8014793c174794::t_9aa4343ce73fa4 26
+csrc/moe/chunk_fwd_o_vllm/op_host/chunk_fwd_o_vllm_tiling.cpp
+  s_8014793c174794::t_986fc8b527a88f 11-15
+  s_8014793c174794::t_1e75878105afb9 38,41,52,55,57-58,142-143,147,153-155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "0abbb2df6b72de367ad4b28538c5a505860c1454",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_8014793c174794": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab66a7497b7a9335089a37f",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "session_id": "6ab66a7497b7a9335089a37f",
+        "client_type": "ide",
+        "external_session_id": "6ab66a7497b7a9335089a37f",
+        "operation_id": "6ab733c497b7a9335089a4bc",
+        "edit_kind": "file_edit",
+        "tool_id": "Edit",
+        "tool_use_id": "6ab733c497b7a9335089a4bc",
+        "tool_type": "agent",
+        "dedupe_key": "6ab66a7497b7a9335089a37f:6ab733c497b7a9335089a4bc:afterEdit:ca721915",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+csrc/torch_binding.cpp
+  s_d33d0b0fceedb8::t_3004210f1762fb 1629,1646-1647
+  s_d33d0b0fceedb8::t_34bf4376a443a5 3091
+vllm_ascend/attention/context_parallel/dsa_cp.py
+  s_d33d0b0fceedb8::t_8ac22483244524 1804,1807
+csrc/torch_binding_meta.cpp
+  s_d33d0b0fceedb8::t_75ae4a6154b049 1242-1243
+vllm_ascend/attention/dsa_v1.py
+  s_d33d0b0fceedb8::t_bda395227d59da 2110,2113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5dea892d6756b50741a70eb6ad5a3ffa0e122c55",
+  "prompts": {},
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "dedupe_key": "6a9e27ac23891158e92a9e1a:6a9e88b723891158e92aa08c:afterEdit:31deb104",
+        "tool_use_id": "6a9e88b723891158e92aa08c",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a9e27ac23891158e92a9e1a",
+        "tool_id": "Edit",
+        "session_id": "6a9e27ac23891158e92a9e1a",
+        "client_type": "ide",
+        "operation_id": "6a9e88b723891158e92aa08c"
+      }
+    }
+  }
+}

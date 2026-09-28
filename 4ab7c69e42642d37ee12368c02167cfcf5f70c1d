@@ -1,0 +1,23 @@
+csrc/attention/store_kv_block/op_host/store_kv_block_def.cpp
+  s_430e5cd8b30992::t_8944d815a74a41 60
+csrc/attention/store_kv_block/op_host/store_kv_block_tiling.cpp
+  s_430e5cd8b30992::t_5bee6c72463715 111-115
+vllm_ascend/meta_registration.py
+  s_430e5cd8b30992::t_df9f2dc60de76d 52-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4ab7c69e42642d37ee12368c02167cfcf5f70c1d",
+  "prompts": {},
+  "sessions": {
+    "s_430e5cd8b30992": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa27a9f97b7a93350897778",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling.cpp
+  s_d33d0b0fceedb8::t_5ee5926b521ac8 508-509
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "6e8a9d1c06a393f5900a144948fb80ca4468c738",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_d33d0b0fceedb8": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ac23891158e92a9e1a",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "tool_type": "agent",
+        "tool_use_id": "6a9e2bbb23891158e92a9e56",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6a9e27ac23891158e92a9e1a",
+        "external_session_id": "6a9e27ac23891158e92a9e1a",
+        "operation_id": "6a9e2bbb23891158e92a9e56",
+        "dedupe_key": "6a9e27ac23891158e92a9e1a:6a9e2bbb23891158e92a9e56:afterEdit:4c5fffca",
+        "source_scene": "unknown",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}
