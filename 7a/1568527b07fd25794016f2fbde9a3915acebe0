@@ -1,0 +1,60 @@
+docs/source/user_guide/configuration/additional_config.md
+  s_9486252bffa6a4::t_0968175b78aaf7 74
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_9486252bffa6a4::t_0036af62045e18 98-104,120-135,140-265,267-271,274-279,283-291
+  s_9486252bffa6a4::t_0f0b730b58813f 75,79
+  s_9486252bffa6a4::t_3adb7a3d1c8ed8 136-139
+  s_9486252bffa6a4::t_20f799a8343efa 266,272-273,280-282
+  s_9486252bffa6a4::t_0f113f0e283c6f 23,26,30,292
+vllm_ascend/ascend_config.py
+  s_9486252bffa6a4::t_473f6971ff242a 667-670,672-676,678-682
+  s_9486252bffa6a4::t_cbdf353a500e05 602-605
+vllm_ascend/quantization/methods/w8a8/w8a8_mxfp8.py
+  s_9486252bffa6a4::t_8e22c376abf12d 333,341-344
+vllm_ascend/ops/fused_moe/fused_moe.py
+  s_9486252bffa6a4::t_1e8f8f0ad4ddbd 462-473
+  s_9486252bffa6a4::t_f86de28a9d27b9 135,290
+  s_9486252bffa6a4::t_aec515fcaf35e6 291-300
+vllm_ascend/ops/fused_moe/dataclass/fused_experts.py
+  s_9486252bffa6a4::t_48fce1a8d2e818 45-52
+vllm_ascend/quantization/methods/w4a4/w4a4_mxfp4.py
+  s_9486252bffa6a4::t_48e269a2bd3c87 279,287-290
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_9486252bffa6a4::t_97a1259264f73d 502-522,537
+vllm_ascend/quantization/methods/w4a8/w4a8_mxfp4.py
+  s_9486252bffa6a4::t_a7bd4c9b47450a 223,231-234
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "7a1568527b07fd25794016f2fbde9a3915acebe0",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_9486252bffa6a4": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab5ecea97b7a9335089a345",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "session_id": "6ab5ecea97b7a9335089a345",
+        "dedupe_key": "6ab5ecea97b7a9335089a345:6aba374597b7a9335089b2b8:afterEdit:2bda25fd",
+        "operation_id": "6aba374597b7a9335089b2b8",
+        "external_session_id": "6ab5ecea97b7a9335089a345",
+        "edit_kind": "file_edit",
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "tool_use_id": "6aba374597b7a9335089b2b8",
+        "client_type": "ide"
+      }
+    }
+  }
+}

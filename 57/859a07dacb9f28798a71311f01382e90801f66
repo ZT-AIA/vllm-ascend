@@ -1,0 +1,56 @@
+vllm_ascend/ops/fused_moe/dataclass/fused_experts.py
+  s_9486252bffa6a4::t_48fce1a8d2e818 45-52
+vllm_ascend/ops/fused_moe/fused_moe.py
+  s_9486252bffa6a4::t_f86de28a9d27b9 135,290
+  s_9486252bffa6a4::t_aec515fcaf35e6 291-300
+  s_9486252bffa6a4::t_1e8f8f0ad4ddbd 462-473
+vllm_ascend/quantization/methods/w4a8/w4a8_mxfp4.py
+  s_9486252bffa6a4::t_a7bd4c9b47450a 223,231-234
+docs/source/user_guide/configuration/additional_config.md
+  s_9486252bffa6a4::t_0968175b78aaf7 74
+vllm_ascend/quantization/methods/w8a8/w8a8_mxfp8.py
+  s_9486252bffa6a4::t_8e22c376abf12d 333,341-344
+vllm_ascend/quantization/methods/w4a4/w4a4_mxfp4.py
+  s_9486252bffa6a4::t_48e269a2bd3c87 279,287-290
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_9486252bffa6a4::t_97a1259264f73d 502-522,537
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_9486252bffa6a4::t_9d48f01b9efd58 23,26,30,75,79,98-104,120-292
+vllm_ascend/ascend_config.py
+  s_9486252bffa6a4::t_cbdf353a500e05 602-605
+  s_9486252bffa6a4::t_473f6971ff242a 667-670,672-676,678-682
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "57859a07dacb9f28798a71311f01382e90801f66",
+  "prompts": {},
+  "humans": {
+    "h_f61697d13c8775": {
+      "author": "ZT-AIA <1028681969@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_9486252bffa6a4": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab5ecea97b7a9335089a345",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": null,
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "tool_id": "Edit",
+        "external_session_id": "6ab5ecea97b7a9335089a345",
+        "tool_use_id": "6abb147997b7a9335089b499",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6abb147997b7a9335089b499",
+        "session_id": "6ab5ecea97b7a9335089a345",
+        "tool_type": "agent",
+        "dedupe_key": "6ab5ecea97b7a9335089a345:6abb147997b7a9335089b499:afterEdit:9f31d12f"
+      }
+    }
+  }
+}
