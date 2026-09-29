@@ -1,5 +1,8 @@
 csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_arch35.cpp
   s_ec3ea3ed7a8cfc::t_d72846289c951a 249-253,258-262
+  s_6536d645a58e0f::t_9b6b58e9e535df 249-253,258-262
+csrc/moe/scatter_nd_update_sk/op_host/op_api/aclnn_scatter_nd_update_sk.cpp
+  s_6536d645a58e0f::t_c245ef9d126b28 34
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -7,6 +10,27 @@ csrc/moe/scatter_nd_update_sk/op_host/scatter_nd_update_sk_tiling_arch35.cpp
   "base_commit_sha": "3e9489803346e0a0c29f13c76eae3feb611504a7",
   "prompts": {},
   "sessions": {
+    "s_6536d645a58e0f": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ab9e8da97b7a9335089ae67",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "ZT-AIA <1028681969@qq.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6ab9e8da97b7a9335089ae67:6aba321097b7a9335089b183:afterEdit:14627609",
+        "external_session_id": "6ab9e8da97b7a9335089ae67",
+        "edit_kind": "file_edit",
+        "tool_id": "Edit",
+        "session_id": "6ab9e8da97b7a9335089ae67",
+        "tool_type": "agent",
+        "client_type": "ide",
+        "operation_id": "6aba321097b7a9335089b183",
+        "source_scene": "unknown",
+        "tool_use_id": "6aba321097b7a9335089b183"
+      }
+    },
     "s_ec3ea3ed7a8cfc": {
       "agent_id": {
         "tool": "trae",
