@@ -1,0 +1,4 @@
+pr: 1
+entries:
+  - category: bugfix
+    text: Fixed HiSparse resolver compatibility with CANN 9.2.1 and handling of optional attention and swap outputs on Ascend 950.
