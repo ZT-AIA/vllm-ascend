@@ -40,23 +40,42 @@ inline void resolve_residency(
     int64_t attention_block_stride, int64_t union_rows, int64_t attention_capacity)
 {
     const int64_t topk = logical.size(1);
+    auto requests_tensor = requests.value_or(at::Tensor());
+    auto states_tensor = states.value_or(at::Tensor());
+    auto source_tensor = source.value_or(at::Tensor());
+    auto resident_tensor = resident.value_or(at::Tensor());
+    auto valid_rows_tensor = valid_rows.value_or(at::Tensor());
+    auto attention_tensor = attention.value_or(at::Tensor());
+    auto counts_tensor = counts.value_or(at::Tensor());
+    auto swap_host_tensor = swap_host.value_or(at::Tensor());
+    auto swap_device_tensor = swap_device.value_or(at::Tensor());
+    auto swap_counts_tensor = swap_counts.value_or(at::Tensor());
+    auto miss_mask_tensor = miss_mask.value_or(at::Tensor());
+    auto stats_tensor = stats.value_or(at::Tensor());
+    const int64_t logical_stride = logical.stride(0);
+    const int64_t source_stride = source ? source->stride(0) : 0;
+    const int64_t resident_stride = resident ? resident->stride(0) : 0;
+    const int64_t hot_table_stride = hot_table.stride(0);
+    const int64_t attention_stride = attention ? attention->stride(0) : topk;
+    const int64_t counts_stride = counts ? counts->stride(0) : 1;
+    const int64_t byte_miss_mask = static_cast<int64_t>(miss_mask.has_value() && miss_mask->element_size() == 1);
     EXEC_NPU_CMD(
         aclnnHiSparseResolveResidency,
         logical, hot_table,
-        requests.value_or(at::Tensor()), states.value_or(at::Tensor()),
-        source.value_or(at::Tensor()), resident.value_or(at::Tensor()),
-        valid_rows.value_or(at::Tensor()),
+        requests_tensor, states_tensor,
+        source_tensor, resident_tensor,
+        valid_rows_tensor,
         host_rows, hot_block_size, source_block_size, resident_block_size,
         resident_null_block, attention_block_stride, union_rows, attention_capacity,
-        logical.stride(0), source ? source->stride(0) : 0,
-        resident ? resident->stride(0) : 0, hot_table.stride(0),
-        attention ? attention->stride(0) : topk, counts ? counts->stride(0) : 1,
-        static_cast<int64_t>(miss_mask.has_value() && miss_mask->element_size() == 1),
+        logical_stride, source_stride,
+        resident_stride, hot_table_stride,
+        attention_stride, counts_stride,
+        byte_miss_mask,
         dgi, lru, output, resolved, errors,
-        attention.value_or(at::Tensor()), counts.value_or(at::Tensor()),
-        swap_host.value_or(at::Tensor()), swap_device.value_or(at::Tensor()),
-        swap_counts.value_or(at::Tensor()), miss_mask.value_or(at::Tensor()),
-        stats.value_or(at::Tensor()));
+        attention_tensor, counts_tensor,
+        swap_host_tensor, swap_device_tensor,
+        swap_counts_tensor, miss_mask_tensor,
+        stats_tensor);
 }
 
 }  // namespace vllm_ascend::hisparse
